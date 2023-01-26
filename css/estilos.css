@@ -1,0 +1,22 @@
+p {
+    color: blue;
+    background-color: yellow;
+  }
+
+body {
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+  }
+  
+/*Nesse caso, o navegador verificará se a fonte "Helvetica" está disponível e a 
+utilizará para exibir os textos de todos os elementos do nosso documento que, 
+por cascata, herdarão essa propriedade do elemento body.*/
+
+/*Alinhamento e decoração de texto*/
+p {
+    line-height: 3px; /* tamanho da altura de cada linha */
+    letter-spacing: 3px; /* tamanho do espaço entre cada letra */
+    word-spacing: 5px; /* tamanho do espaço entre cada palavra */
+    text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+  }
+  
+
